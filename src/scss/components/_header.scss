@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  align-items: center;
+  font-family: 'Arial';
+
+  .header_logo_name{
+    align-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .name_logo{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+  }
+  .header_logo_name{
+    display: flex;
+  }
+  .header_navigate{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+  }
+  .header_navigate ul {
+    list-style: none;
+    display: flex;
+  }
+
+  .header_navigate li {
+    margin-right: 75px;
+  }
+
+
+  .header_navigate a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .header_navigate a:hover {
+    color: red;
+  }
+  .icon_main{
+    display: flex;
+    gap: 45px;
+  }
+  .icon_header {
+
+
+  }
+}

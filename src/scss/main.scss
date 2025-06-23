@@ -13,6 +13,16 @@
 @use 'components/button';
 @use 'components/card';
 
+@use 'components/header';
+
 body {
   background-color: var(--main-color);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Medium.woff2') format('woff2')
+}
+@font-face {
+
 }
